@@ -16,6 +16,8 @@
 		B7DDA19D2AA66FAE00103DCA /* StopwatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DDA19C2AA66FAE00103DCA /* StopwatchTests.swift */; };
 		B7DDA1A72AA66FAE00103DCA /* StopwatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DDA1A62AA66FAE00103DCA /* StopwatchUITests.swift */; };
 		B7DDA1A92AA66FAE00103DCA /* StopwatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DDA1A82AA66FAE00103DCA /* StopwatchUITestsLaunchTests.swift */; };
+		B7DDA1B62AA6740E00103DCA /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DDA1B52AA6740E00103DCA /* Stopwatch.swift */; };
+		B7DDA1B82AA684C700103DCA /* background_photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7DDA1B72AA684C700103DCA /* background_photo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B7DDA1A22AA66FAE00103DCA /* StopwatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopwatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7DDA1A62AA66FAE00103DCA /* StopwatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchUITests.swift; sourceTree = "<group>"; };
 		B7DDA1A82AA66FAE00103DCA /* StopwatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7DDA1B52AA6740E00103DCA /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
+		B7DDA1B72AA684C700103DCA /* background_photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_photo.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		B7DDA1842AA66FAC00103DCA /* Stopwatch */ = {
 			isa = PBXGroup;
 			children = (
+				B7DDA1B72AA684C700103DCA /* background_photo.jpg */,
 				B7DDA1852AA66FAC00103DCA /* AppDelegate.swift */,
 				B7DDA1872AA66FAC00103DCA /* SceneDelegate.swift */,
 				B7DDA1892AA66FAC00103DCA /* ViewController.swift */,
@@ -106,6 +111,7 @@
 				B7DDA18E2AA66FAE00103DCA /* Assets.xcassets */,
 				B7DDA1902AA66FAE00103DCA /* LaunchScreen.storyboard */,
 				B7DDA1932AA66FAE00103DCA /* Info.plist */,
+				B7DDA1B52AA6740E00103DCA /* Stopwatch.swift */,
 			);
 			path = Stopwatch;
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7DDA1B82AA684C700103DCA /* background_photo.jpg in Resources */,
 				B7DDA1922AA66FAE00103DCA /* LaunchScreen.storyboard in Resources */,
 				B7DDA18F2AA66FAE00103DCA /* Assets.xcassets in Resources */,
 				B7DDA18D2AA66FAC00103DCA /* Main.storyboard in Resources */,
@@ -261,6 +268,7 @@
 				B7DDA18A2AA66FAC00103DCA /* ViewController.swift in Sources */,
 				B7DDA1862AA66FAC00103DCA /* AppDelegate.swift in Sources */,
 				B7DDA1882AA66FAC00103DCA /* SceneDelegate.swift in Sources */,
+				B7DDA1B62AA6740E00103DCA /* Stopwatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
