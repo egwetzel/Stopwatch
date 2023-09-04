@@ -18,6 +18,8 @@
 		B7DDA1A92AA66FAE00103DCA /* StopwatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DDA1A82AA66FAE00103DCA /* StopwatchUITestsLaunchTests.swift */; };
 		B7DDA1B62AA6740E00103DCA /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DDA1B52AA6740E00103DCA /* Stopwatch.swift */; };
 		B7DDA1B82AA684C700103DCA /* background_photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7DDA1B72AA684C700103DCA /* background_photo.jpg */; };
+		B7DDA1C02AA687D700103DCA /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7DDA1BF2AA687D700103DCA /* Icon-60@2x.png */; };
+		B7DDA1C42AA6880800103DCA /* Icon-Spotlight-40.png in Resources */ = {isa = PBXBuildFile; fileRef = B7DDA1C32AA6880800103DCA /* Icon-Spotlight-40.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +54,9 @@
 		B7DDA1A62AA66FAE00103DCA /* StopwatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchUITests.swift; sourceTree = "<group>"; };
 		B7DDA1A82AA66FAE00103DCA /* StopwatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B7DDA1B52AA6740E00103DCA /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
-		B7DDA1B72AA684C700103DCA /* background_photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_photo.jpg; sourceTree = SOURCE_ROOT; };
+		B7DDA1B72AA684C700103DCA /* background_photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background_photo.jpg; path = Stopwatch/Images/background_photo.jpg; sourceTree = SOURCE_ROOT; };
+		B7DDA1BF2AA687D700103DCA /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@2x.png"; path = "../../../../../Downloads/AppIcon.appiconset/Icon-60@2x.png"; sourceTree = "<group>"; };
+		B7DDA1C32AA6880800103DCA /* Icon-Spotlight-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Spotlight-40.png"; path = "../../../../../Downloads/AppIcon.appiconset/Icon-Spotlight-40.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +107,7 @@
 		B7DDA1842AA66FAC00103DCA /* Stopwatch */ = {
 			isa = PBXGroup;
 			children = (
-				B7DDA1B72AA684C700103DCA /* background_photo.jpg */,
+				B7DDA1BB2AA686E600103DCA /* Images */,
 				B7DDA1852AA66FAC00103DCA /* AppDelegate.swift */,
 				B7DDA1872AA66FAC00103DCA /* SceneDelegate.swift */,
 				B7DDA1892AA66FAC00103DCA /* ViewController.swift */,
@@ -131,6 +135,16 @@
 				B7DDA1A82AA66FAE00103DCA /* StopwatchUITestsLaunchTests.swift */,
 			);
 			path = StopwatchUITests;
+			sourceTree = "<group>";
+		};
+		B7DDA1BB2AA686E600103DCA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B7DDA1BF2AA687D700103DCA /* Icon-60@2x.png */,
+				B7DDA1C32AA6880800103DCA /* Icon-Spotlight-40.png */,
+				B7DDA1B72AA684C700103DCA /* background_photo.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,8 +252,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7DDA1B82AA684C700103DCA /* background_photo.jpg in Resources */,
+				B7DDA1C02AA687D700103DCA /* Icon-60@2x.png in Resources */,
 				B7DDA1922AA66FAE00103DCA /* LaunchScreen.storyboard in Resources */,
 				B7DDA18F2AA66FAE00103DCA /* Assets.xcassets in Resources */,
+				B7DDA1C42AA6880800103DCA /* Icon-Spotlight-40.png in Resources */,
 				B7DDA18D2AA66FAC00103DCA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
